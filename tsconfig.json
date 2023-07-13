@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "strict": true,
+        "outDir": "./dist",
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": true,
+        "declarationDir": "./dist",
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "module": "ES2022",
+        "target": "ES2022",
+        "noEmitOnError": false,
+        "removeComments": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+}

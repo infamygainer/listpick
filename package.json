@@ -1,0 +1,24 @@
+{
+  "name": "listpick",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && uglifyjs dist/index.js --compress --mangle --module --v8 --output dist/index.js"
+  },
+  "author": "aq41",
+  "license": "Unlicense",
+  "devDependencies": {
+    "@types/node": "^20.4.1",
+    "uglify-js": "^3.17.4"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aq41/listpick.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aq41/listpick/issues"
+  },
+  "homepage": "https://github.com/aq41/listpick#readme",
+  "description": ""
+}
